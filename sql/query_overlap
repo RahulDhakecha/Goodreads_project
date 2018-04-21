@@ -1,0 +1,8 @@
+select temp1.user_id from (select distinct user_id from chick_lit) as temp1 inner join (select distinct user_id from sci_fi) as temp2 where temp1.user_id=temp2.user_id;
+2719
+
+select temp1.user_id from (select distinct user_id from chick_lit) as temp1 inner join (select distinct user_id from det_crime) as temp2 where temp1.user_id=temp2.user_id;
+4729
+
+select temp1.user_id from (select distinct user_id from sci_fi) as temp1 inner join (select distinct user_id from det_crime) as temp2 where temp1.user_id=temp2.user_id;
+4088
